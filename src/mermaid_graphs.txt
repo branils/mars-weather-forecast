@@ -1,0 +1,36 @@
+
+(rendering with mermaid source code only works with GitLab (on default))
+
+
+
+```mermaid
+graph LR
+
+id1[(NASA API)] ---|HTTP|id2{{RaspberryPi}} ---|Bus| id3(Display)
+style id1 fill:#0054b8,stroke:#bf4458,stroke-width:4px,color:#fff
+style id2 fill:#008141,stroke:#000,stroke-width:2px,color:#fff
+style id3 fill:#e4f5f5,stroke:#008141,stroke-width:2px,color:#000
+```
+
+
+
+
+
+
+```mermaid
+graph TB
+Sol --> ...
+Sol --> 608
+Sol --> 609
+Sol --> 610
+Sol --> 611
+608 --> Temperatur
+608 --> Wind
+608 --> id8[...]
+Temperatur --> avg_temp[Durchschnitt]
+Temperatur --> max_temp[max]
+Temperatur --> min_temp[min]
+Wind --> avg_wind[Durchschnitt]
+Wind --> max_wind[max]
+Wind --> min_wind[min]
+```
