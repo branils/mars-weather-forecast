@@ -8,6 +8,8 @@ small student project of network and bus technology course
 * [NASA API](https://api.nasa.gov)
 ## Topology of the Project  
 
+![Topology](/Misc/topology.png)
+
 ## Hardware 
 ### [Raspberry Pi 3 Model B Plus Rev 1.3](https://www.unixtutorial.org/command-to-confirm-raspberry-pi-model)
 
@@ -29,12 +31,12 @@ final URL: `https://api.nasa.gov/insight_weather/?api_key=<YOUR_API-KEY>&feedtyp
 ### Python HTTP-Requests
 * **requests** library (`pip install requests`).
 * implementation: [request_nasa.py](/src/request_nasa.py)
+![nested json data](/Misc/nested_json_data.png)
 
 ## Display communication
 [lcd.py](/src/lcd.py) 
 
-<img src="../Misc/gpio_bus_example.PNG" alt="Bus example" width="500"/>
-
 # Result
-<img src="../Misc/av_Wind_speed.jpg" alt="Average Wind speed" width="200"/>
-<img src="../Misc/av_Temp.jpg" alt="Average Temperature" width="200"/>
+
+![Average Wind speed](/Misc/av_Wind_speed.jpg)
+![Average Temperature](/Misc/av_Temp.jpg)
