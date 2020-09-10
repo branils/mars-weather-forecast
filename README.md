@@ -26,7 +26,9 @@ Language: **Python**
 Generate API Key ([api.nasa.gov](https://api.nasa.gov)) for authentification. Study the [InSight documentation](https://api.nasa.gov/assets/insight/InSight%20Weather%20API%20Documentation.pdf) for desired values.  
 
 final URL: `https://api.nasa.gov/insight_weather/?api_key=<YOUR_API-KEY>&feedtype=json&ver=1.0`
-(for testing reasons you can simply use this [demo URL](https: //api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0)
+
+
+(for testing reasons you can simply use this [demo URL](https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0)
 
 ### Python HTTP-Requests
 * **requests** library (`pip install requests`).
